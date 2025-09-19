@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechZone | IT Tech Store</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <div class="logo">TechZone</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to E-Zone Tech</h1>
+    <p>Your one-stop shop for the latest gadgets and accessories.</p>
+    <a href="#products" class="button">Shop Now</a>
+  </section>
+  <br>
+
+   <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At E-Zone Tech, we are passionate about technology. We provide the latest devices and accessories to keep you connected, productive, and entertained. Our mission is to deliver quality products with excellent customer service.</p>
+  </section>
+  <br>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
     
+    <!-- Product Categories -->
+    <div class="category">
+      <!-- Category 1: Laptops -->
+      <h3>Top Seller Laptops</h3>
+      <p>Powerful and portable laptops for work and play</p>
+      <div class="product-grid">
+        <div>
+          <img src="images\apple macbook air 13 early 2025.jpg" alt="MacBook Air 13" width="300" height="300"/>
+          <p>Apple MacBook Air 13 (Early 2025)</p>
+          <p><strong>Price:</strong>R18 600</p>
+        </div>
+        <div>
+          <img src="images\HP 14 (14-dq0000-dq6000, dr0000-dr2000, fr0000).jpg" alt="HP 14 Laptop" width="300" height="300"/>
+          <p>HP 14 Laptop</p>
+          <p><strong>Price:</strong>R15 000</p>
+        </div>
+        <div>
+          <img src="images\Apple MacBook Air 15 (Early 2025).jpg" alt="MacBook Air 15" width="300" height="300"/>
+          <p>Apple MacBook Air 15 (Early 2025)</p>
+          <p><strong>Price:</strong>R22 500</p>
+        </div>
+      </div>
+    </div>
+     <br> 
+
+      <!-- Category 2: Phones -->
+     <div class="category">
+      <h3>Phones</h3>
+      <p>Latest smartphones with cutting-edge technology</p>
+      <div class="product-grid">
+        <div>
+          <img src="images\Samsung galaxy S25 Ultra.jpg" alt="Samsung Galaxy S25 Ultra" width="100" height="200" />
+          <p>Samsung Galaxy S25 Ultra</p>
+          <p><strong>Price:</strong>R20 500</p>
+        </div>
+        <div>
+          <img src="images\Apple iPhone 16 Pro Max.jpg" alt="iPhone 16 Pro Max" width="100" height="200" />
+          <p>Apple iPhone 16 Pro Max</p>
+          <p><strong>Price:</strong>R21 000</p>
+        </div>
+        <div>
+          <img src="images\Google Pixel 9 Pro.jpg" alt="Google Pixel 9 Pro" width="100" height="200" />
+          <p>Google Pixel 9 Pro</p>
+          <p><strong>Price:</strong>R15 999</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+      <!-- Category 3: Tablets -->
+<div class="category">
+      <h3>Tablets</h3>
+      <p>Lightweight tablets for entertainment and productivity</p>
+      <div class="product-grid">
+        <div>
+          <img src="images\Apple iPad Pro 11”.jpg" alt="iPad Pro 11" width="300" height="300"/>
+          <p>Apple iPad Pro 11</p>
+          <p><strong>Price:</strong>R18 500</p>
+        </div>
+        <div>
+          <img src="images\ZONKO Tablet 10 32GB.jpg" alt="ZONKO Tablet 10" width="300" height="300"/>
+          <p>ZONKO Tablet 10 32GB</p>
+          <p><strong>Price:</strong>R1 599</p>
+        </div>
+        <div>
+          <img src="images\SAMSUNG Galaxy Tab S6 Lite.jpg" alt="Galaxy Tab S6 Lite" width="300" height="300"/>
+          <p>Samsung Galaxy Tab S6 Lite</p>
+          <p><strong>Price:</strong>R3 850</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+      <!-- Category 4: Accessories -->
+         <div class="category">
+      <h3>Accessories</h3>
+      <p>Headphones, chargers, and everything in between</p>
+      <div class="product-grid">
+        <div>
+          <img src="images\JBL Tune 510BT - Bluetooth headphones.jpg" alt="JBL Headphones" width="300" height="400"/>
+          <p>JBL Tune 510BT - Bluetooth Headphones</p>
+          <p><strong>Price:</strong>R899</p>
+        </div>
+        <div>
+          <img src="images\Samsung Galaxy Watch6.jpg" alt="Galaxy Watch6" width="300" height="400"/>
+          <p>Samsung Galaxy Watch6</p>
+          <p><strong>Price:</strong>R899</p>
+        </div>
+        <div>
+          <img src="images\AirPods Max (USB-C).jpg" alt="AirPods Max" width="300" height="400"/>
+          <p>Apple AirPods Max (USB-C)</p>
+          <p><strong>Price:</strong>R99</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+    
+
+
+ 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechZone. All rights reserved.</p>
+  </footer>
 </body>
 </html>
